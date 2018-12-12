@@ -3,7 +3,7 @@ title: 무직자소액당일대출
 tagline: 무직자소액당일대출, 인터넷대출정보사이트
 author: 관리자
 email: help@leevra.com
-description: "은행별 아파트담보대출금리비교 정보, 대학생, 무직자소액대출 쉬운곳, 대출이자비교표 제공 인터넷대출사이트." # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
+description: "은행별 아파트담보대출금리비교 정보, 대학생, 무직자소액대출 쉬운곳, 무직자소액당일대출 인터넷대출사이트." # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
 keywords: "무직자소액당일대출, 무직자소액대출, 인터넷대출정보사이트"
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "https://wooricapital.leevra.com" # the base hostname & protocol for your site
@@ -100,7 +100,7 @@ locales:
       Aboutme: "프로필"
       Archives: "모든 게시물"
       Blogroll: "참조 링크"
-      Categories: "카테고리"
+      Categories: "메뉴"
       Copyright_Notice: "저작권"
       Recent_Posts: "최근 게시물"
       Tags: "태그"
