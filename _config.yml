@@ -8,6 +8,7 @@ keywords: "무직자소액당일대출, 무직자소액대출, 인터넷대출�
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "https://wooricapital.leevra.com" # the base hostname & protocol for your site
 locale: kr_KO
+permalink: /:title
 
 ### Personal info and site tools info:
 github_username:  leevra
