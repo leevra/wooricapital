@@ -1,0 +1,47 @@
+<header class="site-header">
+
+  <div class="wrapper">
+
+    <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+    <h3 class="site-meta">{{ site.tagline }}</h3>
+
+    <nav class="site-nav">
+
+      
+      
+      
+      
+      
+    
+     <a href="/급전마련-알리미" target="_self"><strong><span style="color: rgb(0, 0, 0);">급전마련 알리미</span></strong></a>
+      
+	  
+       <a href="/categories/#대출정보" target="_self"><strong><span style="color: rgb(0, 0, 0);">｜ 대출정보</span></strong></a>
+           
+        
+	  
+       <a href="/compare" target="_self"><strong><span style="color: rgb(0, 0, 0);">｜ 대출금리비교</span></strong></a>
+           
+        
+        
+        
+        
+        {% for page in site.pages %}
+        {% if page.title %}
+        
+           
+        
+        
+
+        
+        
+       
+          
+        {% endif %}      
+        {% endfor %}
+    
+    </nav>
+
+  </div>
+
+</header>

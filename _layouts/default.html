@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+<div class="container">
+
+  {% include header.html %}
+  
+  
+  
+  
+  
+<center>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- loan1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9965606273577507"
+     data-ad-slot="3424490953"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</center>
+  
+  
+  
+  
+  
+
+  {% if site.default_column == "two" %}  
+
+  <div class="page-content col-sm-8">
+    {{ content }}
+    {% include post_pagination.html %}
+  </div>
+  {% include sidebar.html %}
+
+  {% else %}
+
+  <div class="page-content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </div>
+  {% include post_pagination.html %}
+
+  {% endif %}
+
+  {% include footer.html %}
+
+</div>
+
+</body>
+
+</html>
